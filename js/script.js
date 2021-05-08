@@ -12,11 +12,10 @@ mainEl.innerHTML = '<h1>SEI Rocks!</h1>'
 
 // Task 1.3
 
-mainEl.classList.add('flex-ctr')
-// let color = 'var(--main-bg)';
-//
-//
-// mainEl.style.background = color;
-// mainEl.innerHTML = '<h1>SEI Rocks!</h1>';
-//
-// console.log(mainEl);
+mainEl.classList.add('flex-ctr');
+
+// Task 2.0
+
+const topMenuEl = document.querySelector()
+
+task un
