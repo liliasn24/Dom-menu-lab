@@ -13,7 +13,7 @@ mainEl.innerHTML = '<h1>SEI Rocks!</h1>'
 // Task 1.3
 
 mainEl.classList.add('flex-ctr');
-
+9
 // Task 2.0
 
 const topMenuEl = document.querySelector('#top-menu');
@@ -30,4 +30,22 @@ topMenuEl.style.backgroundColor = 'var(--top-menu-bg)';
 
 topMenuEl.classList.add('flex-around');
 
-// Task
+// Task 3.0
+
+var menuLinks = [
+  {text: 'about', href: '/about'},
+  {text: 'catalog', href: '/catalog'},
+  {text: 'orders', href: '/orders'},
+  {text: 'account', href: '/account'},
+];
+
+// Task 3.1
+
+for(let menuLink of menuLinks){
+
+  const zelda = document.createElement('a');
+  zelda.setAttribute('href', menuLink.href);
+  zelda.textContent = menuLink.text;
+  topMenuEl.appendChild(zelda);
+  console.log(zelda);
+}
